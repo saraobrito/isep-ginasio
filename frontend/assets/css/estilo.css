@@ -27,17 +27,17 @@
 }
 /* Estilo do texto com o nome do ginásio */
 .bng-navbar h3 {
- font-size: 1.5em; /* Aumenta o tamanho da letra */
+ font-size: 1rem; /* Aumenta o tamanho da letra */
  color: #dddddd; /* Cor do texto em cinza claro */
 }
 /* Estilos para os links centrais da navegação */
 .container-navegacao {
  text-align: center; /* Centraliza os links */
- padding: 20px; /* Adiciona espaçamento interno */
+ padding: 10px; /* Adiciona espaçamento interno */
 }
 .container-navegacao a {
- font-size: 1.5em; /* Aumenta o tamanho da fonte dos links */
- margin: 0px 50px; /* Espaçamento horizontal entre os links */
+ font-size: 0.7rem; /* Aumenta o tamanho da fonte dos links */
+ margin: 0px 20px; /* Espaçamento horizontal entre os links */
  text-decoration: none; /* Remove o sublinhado */
  color: #dddddd; /* Define a cor dos links */
 }
@@ -48,7 +48,7 @@
 .nav-cliente a {
  color: #dddddd; /* Cor do texto */
  text-decoration: none; /* Remove sublinhado */
- font-size: 1.5em; /* Tamanho da fonte */
+ font-size: 0.7rem; /* Tamanho da fonte */
  padding: 10px; /* Espaçamento interno */
  border-radius: 5px; /* Bordas arredondadas */
  transition: background 0.3s;/* Efeito suave na transição */
@@ -71,18 +71,18 @@
 }
 .footer-section {
  flex: 1; /* Faz com que as secções tenham larguras iguais */
- min-width: 250px; /* Define uma largura mínima para cada secção */
- padding: 10px; /* Espaçamento interno */
+ min-width: 150px; /* Define uma largura mínima para cada secção */
+ padding: 5px; /* Espaçamento interno */
  text-align: center; /* Centraliza o conteúdo de cada bloco */
 }
 .footer-section strong {
- font-size: 1.2rem; /* Tamanho da fonte para os títulos */
+ font-size: 0.7rem; /* Tamanho da fonte para os títulos */
  display: block; /* Ocupa toda a largura disponível */
- margin-bottom: 10px; /* Espaçamento abaixo do título */
+ margin-bottom: 5px; /* Espaçamento abaixo do título */
  color: #f8f9fa; /* Cor clara para destaque */
 }
 .footer-section p {
- font-size: 1rem; /* Tamanho padrão do texto */
+ font-size: 0.5rem; /* Tamanho padrão do texto */
  color: #d6d6d6; /* Cor do texto em cinza claro */
 }
 /* Texto Genérico */
@@ -184,4 +184,28 @@ section {
 }
 .pacote ul li {
  margin-bottom: 5px; /* Espaço entre cada linha da lista */
+}
+
+#contacto form {
+ display: flex; /* Usa layout flexível */
+ flex-direction: column; /* Organiza os elementos na vertical */
+ max-width: 500px; /* Limita a largura do formulário */ 
+ margin: 0 auto; /* Centraliza horizontalmente */
+}
+#contacto label {
+ margin-top: 10px; /* Espaço acima de cada rótulo (label) */
+}
+#contacto input, #contacto textarea {
+ padding: 10px; /* Espaço interno (dentro do campo) */ 
+ margin-bottom: 15px; /* Espaço abaixo de cada campo */
+ border: 1px solid #ddd; /* Borda cinzenta clara */
+ border-radius: 5px; /* Bordas arredondadas */
+}
+#contacto button {
+ background-color: #ddd; /* Cor de fundo do botão (cinzento claro) */ 
+ color: #fff; /* Cor do texto do botão (branco) */ 
+ padding: 10px 20px; /* Espaçamento interno do botão */
+ border: none; /* Remove a borda padrão */
+ border-radius: 5px; /* Bordas arredondadas */
+ cursor: pointer; /* Cursor tipo "mão" ao passar por cima */
 }
